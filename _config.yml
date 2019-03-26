@@ -2,6 +2,7 @@
 title: 周云逸
 description: "An Integrated Scientific Blogging Template"
 
+repository: Fear-Of-Loneliness/zhouyy.github.io
 github_url: https://github.com/Fear-Of-Loneliness
 url: https://github.com/Fear-Of-Loneliness
 
@@ -9,15 +10,15 @@ url: https://github.com/Fear-Of-Loneliness
 
 
 # Secondary Parameters
-baseurl: "/zhouyy.github.io"
+baseurl: "/project-pages"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
+github_username:  zhouyy.github.io
 project_repository: zhouyy.github.io
-disqus_shortname: zhouyy.github.io
+disqus_shortname: project-pages
 g-analytics: UA-75881392-1
 altmetric: true
 
