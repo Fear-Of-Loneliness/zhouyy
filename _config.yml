@@ -1,5 +1,5 @@
 # Site settings
-title: Project Pages144
+title: Project Pages1
 description: "An Integrated Scientific Blogging Template"
 url: "https://projectpages.github.io"
 
@@ -7,7 +7,7 @@ url: "https://projectpages.github.io"
 
 
 # Secondary Parameters
-baseurl: "blog"
+baseurl: "/project-pages"
 #/zhouyy.github.io
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
