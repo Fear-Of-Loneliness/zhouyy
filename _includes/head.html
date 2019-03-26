@@ -12,23 +12,23 @@
 
 	{% endif %}
 
-	<link rel='shortcut icon' type='image/png' href='/project-pages/favicon.png' />
+	<link rel='shortcut icon' type='image/png' href='{{ site.baseurl }}/favicon.png' />
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: /project-pages | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: /project-pages | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: /project-pages | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl | prepend: site.url }}">
 	
 	<!-- Adjust Colors -->
-    <link rel="stylesheet" href="{{ "/colorscheme.css" | prepend: /project-pages | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/colorscheme.css" | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: /project-pages | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -63,7 +63,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 	<!-- Custom Theme JavaScript -->
-	<script src="{{ "/js/clean-blog.min.js " | prepend: /project-pages | prepend: site.url }}"></script>
+	<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl | prepend: site.url }}"></script>
 	
 	{% include analytics.html %}
 	
