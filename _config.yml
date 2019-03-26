@@ -1,5 +1,5 @@
 # Site settings
-title: Project Pages122
+title: Project Pages12
 description: "An Integrated Scientific Blogging Template"
 url: "https://github.com/Fear-Of-Loneliness/zhouyy.github.io"
 
@@ -11,7 +11,7 @@ baseurl: "/blob/master"
 #/zhouyy.github.io
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /blob/master/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  projectpages
