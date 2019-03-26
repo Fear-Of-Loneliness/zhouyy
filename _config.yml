@@ -1,7 +1,10 @@
 # Site settings
 title: 周云逸
 description: "An Integrated Scientific Blogging Template"
-url: "https://projectpages.github.io"
+
+repository: Fear-Of-Loneliness/zhouyy.github.io
+github_url: https://github.com/Fear-Of-Loneliness
+url: https://fear-of-loneliness.github.io/zhouyy.github.io
 
 
 
