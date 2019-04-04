@@ -1,5 +1,5 @@
 # Site settings
-title: Project Pages
+title: Project Pages2
 description: "An Integrated Scientific Blogging Template"
 url: "https://projectpages.github.io"
 
@@ -7,18 +7,22 @@ url: "https://projectpages.github.io"
 
 
 # Secondary Parameters
-baseurl: "/project-pages"
+#baseurl: "/project-pages"
 #/zhouyy.github.io
 header-img: /zhouyy.github.io/img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /zhouyy.github.io/project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
-disqus_shortname: project-pages
-g-analytics: UA-75881392-1
-altmetric: true
+#github_username:  projectpages
+#project_repository: project-pages
+#disqus_shortname: project-pages
+#g-analytics: UA-75881392-1
+#altmetric: true
+
+repository: fear-of-loneliness.github.io/zhouyy.github.io
+github_url: https://github.com/fear-of-loneliness
+url: https://fear-of-loneliness.github.io/zhouyy.github.io
 
 # Build settings
 gems: [jekyll-paginate]
