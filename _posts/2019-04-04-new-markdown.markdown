@@ -1,10 +1,8 @@
 ---
-layout:     	markdown
-title:     		入门Markdown
-author:     	Ahmet Cecen
-tags:           A B C
-subtitle:    	让我们一起学习Markdown
-
+layout: page
+title: "入门markdown"
+description: "hello"
+header-img: "img/home-bg.jpg"
 ---
 
 
