@@ -1,11 +1,11 @@
 # Site settings
-title: zhouyy
+title: zhouyy1
 description: "An Integrated Scientific Blogging Template"
 
 # Secondary Parameters
 #baseurl: "/project-pages"
 #/zhouyy.github.io
-header-img: /zhouyy.github.io/img/home-bg.jpg
+header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /zhouyy.github.io/img/logos/Project-Pages-New-Logo-Inverted.png
 
