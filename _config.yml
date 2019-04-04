@@ -1,5 +1,5 @@
 # Site settings
-title: Project Pages123
+title: Project Pages
 description: "An Integrated Scientific Blogging Template"
 url: "https://projectpages.github.io"
 
@@ -9,9 +9,9 @@ url: "https://projectpages.github.io"
 # Secondary Parameters
 baseurl: "/project-pages"
 #/zhouyy.github.io
-header-img: img/home-bg.jpg
+header-img: /zhouyy.github.io/img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /zhouyy.github.io/project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username:  projectpages
@@ -37,7 +37,7 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: "img/home-bg.jpg"
+      header-img: "zhouyy.github.io/img/home-bg.jpg"
 
 # Prose Settings
 prose:
