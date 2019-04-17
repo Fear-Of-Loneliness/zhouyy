@@ -1,8 +1,11 @@
 ---
-layout: slide
+layout: page
 title: "入门markdown"
 description: "hello"
 header-img: "img/home-bg.jpg"
+author:     zyy
+subtitle:  	111111111111111111111111111111
+category:  project1
 ---
 
 
