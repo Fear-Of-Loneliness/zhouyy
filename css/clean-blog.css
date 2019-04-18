@@ -351,13 +351,13 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 200;
   letter-spacing: 1px;
   padding: 10px 5px;
   background-color: white;
   border-radius: 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 200px) {
   .pager li > a,
   .pager li > span {
     font-size: 14px;
