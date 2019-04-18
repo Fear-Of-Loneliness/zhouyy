@@ -1,23 +1,6 @@
 ---
 layout: page
 ---
-
-<div class="site-header-topbar">
-    <div class="container">
-        <div class="topbar-menu">
-            {% for menu in site.menus %}
-            <div class="item">
-                <a href="{{ menu.href }}"
-                   target="{{ menu.target | default: _self }}"
-                   title="{{ menu.label }}">
-                    {{ menu.label }}
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -36,8 +19,6 @@ layout: page
 </div>
 <hr>
 {% endfor %}
-
-
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
