@@ -5,7 +5,7 @@ description: "hello"
 header-img: "img/home-bg.jpg"
 author:     zyy
 subtitle:  	111111111111111111111111111111
-category:  project1
+category:  project
 ---
 
 
