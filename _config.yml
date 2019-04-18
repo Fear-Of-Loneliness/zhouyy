@@ -40,6 +40,48 @@ defaults:
       layout: "project"
       header-img: "zhouyy.github.io/img/home-bg.jpg"
 
+# Navigation. main menu list
+navs:
+
+  -
+    href: https://fear-of-loneliness.github.io/zyy.github.io/
+    label: Home
+
+  -
+    href: /spring-boot.html
+    label: Spring Boot
+    target: _self
+#    subnav:                下拉多选框
+#
+#      -
+#        subHref: /spring-boot.html
+#        subLabel: Spring Boot
+#
+#      -
+#        subHref: /spring-cloud.html
+#        subLabel: Spring Cloud
+
+  -
+    href: /spring-cloud.html
+    label: Spring Cloud
+    target: _self
+
+  -
+
+    href: /java.html
+    label: Java
+    target: _self
+
+  -
+    href: /archives.html
+    label: Archives
+    target: _self
+
+  -
+    href: /about.html
+    label: About
+    target: _self
+
 
 # Prose Settings
 prose:
