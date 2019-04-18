@@ -34,7 +34,7 @@ layout: page
         {% if paginator.page == 1 %}
         <span class="current-page">1</span>
         {% else %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">1</a>
+        <a href="{{ site.url }}">1</a>
         {% endif %}
     </li>
 
@@ -43,7 +43,7 @@ layout: page
         {% if count == paginator.page %}
         <span class="current-page">{{ count }}</span>
         {% else %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}/page{{count}}">{{ count }}</a>
+        <a href="{{ site.url }}/page{{count}}">{{ count }}</a>
         {% endif %}
     </li>
     {% endfor %}
