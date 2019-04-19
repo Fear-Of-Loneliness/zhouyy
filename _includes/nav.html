@@ -1,24 +1,22 @@
 <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
 
-
-<div class="site-header-topbar">
-    <div class="container">
-        <div class="topbar-menu">
-            {% for menu in site.menus %}
-            <div class="item">
-                <a href="{{ menu.href }}"
-                   target="{{ menu.target | default: _self }}"
-                   title="{{ menu.label }}">
-                    {{ menu.label }}
-                </a>
+    <div class="site-header-topbar">
+        <div class="container">
+            <div class="topbar-menu">
+                {% for menu in site.menus %}
+                <div class="item">
+                    <a href="{{ menu.href }}"
+                       target="{{ menu.target | default: _self }}"
+                       title="{{ menu.label }}">
+                        {{ menu.label }}
+                    </a>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
-</div>
 
-
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
