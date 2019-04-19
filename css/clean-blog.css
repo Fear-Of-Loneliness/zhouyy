@@ -21,6 +21,28 @@ p.red {
   color: #FF0000;
 }
 
+.site-header-topbar {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  right: 0;
+  z-index: 10;
+  padding: 10px 0;
+}
+.topbar-menu {
+  float: right;
+  font-size: 14px;
+  line-height: 20px;
+}
+.topbar-menu .item {
+  display: inline-block;
+  margin-left: 15px;
+}
+.topbar-menu .item a{
+  color: #fff !important;
+}
+
+
 h1,
 h2,
 h3,
