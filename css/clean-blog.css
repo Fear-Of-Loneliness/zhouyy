@@ -50,8 +50,9 @@ hr.small {
   border-width: 4px;
   border-color: #FFFFFF;
 }
+/*导航栏*/
 .navbar-custom {
-  background: white;
+  background: black;
   position: absolute;
   top: 0;
   left: 0;
