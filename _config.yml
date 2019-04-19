@@ -6,7 +6,7 @@ description: "An Integrated Scientific Blogging Template"
 #baseurl: "/project-pages"
 #/zhouyy.github.io
 header-img: img/home-bg.jpg
-headercolor: "#000000"
+headercolor: "#FFFFFF"
 logo: /zhouyy.github.io/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
@@ -39,39 +39,6 @@ defaults:
     values:
       layout: "project"
       header-img: "zhouyy.github.io/img/home-bg.jpg"
-
-
-menus:
-
-  -
-    href: /money.html
-    label: 挣钱
-    target: _self
-
-  -
-    href: /life.html
-    label: 故事
-    target: _self
-
-  -
-    href: /arch.html
-    label: 架构
-    target: _self
-
-  -
-    href: /payment.html
-    label: 支付
-    target: _self
-
-  -
-    href: /link.html
-    label: 友链
-    target: _self
-
-  -
-    href: /about.html
-    label: 关于
-    target: _self
 
 
 # Prose Settings
