@@ -6,7 +6,7 @@ description: "An Integrated Scientific Blogging Template"
 #baseurl: "/project-pages"
 #/zhouyy.github.io
 header-img: img/home-bg.jpg
-headercolor: "#FFFFFF"
+headercolor: "#000000"
 logo: /zhouyy.github.io/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
