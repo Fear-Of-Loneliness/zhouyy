@@ -7,7 +7,7 @@ category: project
 ---
 
 
-[TOC]
+[toc]
 ###1
 ####1
 
