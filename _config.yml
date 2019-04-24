@@ -20,6 +20,7 @@ github_username: zhouyyGod
 repository: zhouyygod.github.io/zhouyy.github.io
 github_url: https://github.com/zhouyyGod
 url: https://zhouyygod.github.io/zhouyy.github.io
+weibo: zhouyy
 
 # Build settings
 gems: [jekyll-paginate]
