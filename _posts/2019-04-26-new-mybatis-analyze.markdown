@@ -27,7 +27,7 @@ description: "Mybatis中的Dao接口和XML文件里的SQL是如何建立关系�
 
 Mybatis会把每个SQL标签封装成SqlSource对象。然后根据SQL语句的不同，又分为动态SQL和静态SQL。其中，静态SQL包含一段String类型的sql语句；而动态SQL则是由一个个SqlNode组成。
 
-![SqlSource](https://zhouyy.top/img/mybatis1.png){:height="250" width="800"}
+[![SqlSource](https://zhouyy.top/img/mybatis1.png){:height="250" width="800"}]()
 
 假如我们有这样一个SQL：
 
@@ -72,7 +72,7 @@ Configuration对象，我们知道它就是Mybatis中的大管家，基本所有
 
 首先，我们在Spring配置文件中，一般会这样配置：
 
-```java
+```xml
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 	<property name="basePackage" value="com.viewscenes.netsupervisor.dao" />
 	<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
