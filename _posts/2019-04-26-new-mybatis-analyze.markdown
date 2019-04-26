@@ -22,6 +22,23 @@ description: "Mybatis中的Dao接口和XML文件里的SQL是如何建立关系�
 
 首先，Mybatis在初始化SqlSessionFactoryBean的时候，找到mapperLocations路径去解析里面所有的XML文件，这里我们重点关注两部分。
 
+##### 1、创建SqlSource
+
 Mybatis会把每个SQL标签封装成SqlSource对象。然后根据SQL语句的不同，又分为动态SQL和静态SQL。其中，静态SQL包含一段String类型的sql语句；而动态SQL则是由一个个SqlNode组成。
 
-![SqlSource](https://zhouyy.top/img/169ce3ccf1155ed5.png)
+![SqlSource](https://zhouyy.top/img/169ce3ccf1155ed5.png){:height="100" width="400"}
+
+假如我们有这样一个SQL：
+
+```java
+    <select id="getUserById" resultType="user">
+    	select * from user
+    	<where>
+    		<if test="uid!=null">
+    			and uid=#{uid}
+    		</if>
+    	</where>
+    </select>
+```
+
+它对应的SqlSource对象看起来应该是这样的：
