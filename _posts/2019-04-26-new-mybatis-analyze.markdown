@@ -31,7 +31,7 @@ Mybatis会把每个SQL标签封装成SqlSource对象。然后根据SQL语句的�
 
 假如我们有这样一个SQL：
 
-```java
+```xml
     <select id="getUserById" resultType="user">
     	select * from user
     	<where>
