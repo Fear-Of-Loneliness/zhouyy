@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "Why use Project Pages?"
-header-img: "img/home-bg.jpg"
+header-img: "https://source.unsplash.com/category/nature/2600x500"
 ---
 
 万字长文为您介绍第三方支付:起源、发展与趋势
