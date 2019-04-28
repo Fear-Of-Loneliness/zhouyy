@@ -3,6 +3,7 @@ layout: page
 title: "Mybatis"
 description: "Mybatis中的Dao接口和XML文件里的SQL是如何建立关系的"
 subtitle:  	Mybatis中的Dao接口和XML文件里的SQL是如何建立关系的
+header-img: "http://pqni1rk32.bkt.clouddn.com/image/header/00001.jpg"
 ---
 测试！！！
 
@@ -28,7 +29,7 @@ subtitle:  	Mybatis中的Dao接口和XML文件里的SQL是如何建立关系的
 
 Mybatis会把每个SQL标签封装成SqlSource对象。然后根据SQL语句的不同，又分为动态SQL和静态SQL。其中，静态SQL包含一段String类型的sql语句；而动态SQL则是由一个个SqlNode组成。
 
-[![SqlSource](https://zhouyy.top/img/mybatis1.png){:height="250" width="800"}](https://zhouyy.top/img/mybatis1.png)
+[![SqlSource](http://pqni1rk32.bkt.clouddn.com/image/header/mybatis2.jpg-img){:height="250" width="800"}](http://pqni1rk32.bkt.clouddn.com/image/header/mybatis2.jpg-img)
 
 假如我们有这样一个SQL：
 
