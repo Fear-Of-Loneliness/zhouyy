@@ -3,7 +3,7 @@ layout: page
 title: "SpringBoot"
 description: "基于springboot的分布式框架搭建"
 subtitle:  	基于springboot的分布式框架搭建
-header-img: "http://pqni1rk32.bkt.clouddn.com/image/header/00001.jpg"
+header-img: "https://zhouyy.top/img/home-bg.jpg"
 ---
 
 ### 什么是分布式？
@@ -14,11 +14,11 @@ header-img: "http://pqni1rk32.bkt.clouddn.com/image/header/00001.jpg"
 
 ##### 图解：
 
-![图]()
+![springboot](https://zhouyy.top/img/springboot/分布式.png){:height="250" width="800"}
 
 技术的话采用的是springboot + springcloud，将每个模块做成微服务springboot，然后服务注册在注册中心eureka中，基于feignclient进行远程调用。
 
-![](http://pqni1rk32.bkt.clouddn.com/image/springboot/a.png)
+![springboot](https://zhouyy.top/img/springboot/a.png){:height="250" width="800"}
 
 ### 搭建springboot服务
 
@@ -26,9 +26,9 @@ header-img: "http://pqni1rk32.bkt.clouddn.com/image/header/00001.jpg"
 
 1. 创建一个maven项目
 
-![图]()
+![springboot](https://zhouyy.top/img/springboot/创建maven项目.png){:height="250" width="800"}
 
-![图]()
+![springboot](https://zhouyy.top/img/springboot/maven项目.png.png){:height="250" width="800"}
 
 2. 添加pom坐标
 

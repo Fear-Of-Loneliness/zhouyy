@@ -3,7 +3,7 @@ layout: page
 title: "Mybatis"
 description: "Mybatis中的Dao接口和XML文件里的SQL是如何建立关系的"
 subtitle:  	Mybatis中的Dao接口和XML文件里的SQL是如何建立关系的
-header-img: "http://pqni1rk32.bkt.clouddn.com/image/header/00001.jpg"
+header-img: "https://zhouyy.top/img/home-bg.jpg"
 ---
 测试！！！
 
