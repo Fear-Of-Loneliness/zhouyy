@@ -28,11 +28,11 @@ header-img: "https://zhouyy.top/img/home-bg.jpg"
 
 ![springboot](https://zhouyy.top/img/springboot/创建maven项目.png){:height="250" width="800"}
 
-![springboot](https://zhouyy.top/img/springboot/maven项目.png.png){:height="250" width="800"}
+![springboot](https://zhouyy.top/img/springboot/maven项目.png){:height="250" width="800"}
 
 2. 添加pom坐标
 
-![图]()
+![springboot](https://zhouyy.top/img/springboot/添加pom坐标.png){:height="250" width="800"}
 
 ##### Parent的作用
 
@@ -48,7 +48,7 @@ header-img: "https://zhouyy.top/img/home-bg.jpg"
 
 3. 添加配置文件
 
-![图]()
+![springboot](https://zhouyy.top/img/springboot/添加properties配置文件.png){:height="250" width="800"}
 
 4. 添加启动类
 
