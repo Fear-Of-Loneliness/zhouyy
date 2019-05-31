@@ -14,11 +14,11 @@ header-img: "https://zhouyy.top/img/home-bg.jpg"
 
 ##### 图解：
 
-![springboot](https://zhouyy.top/img/springboot/分布式.png){:height="250" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/分布式.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/分布式.png)
 
 技术的话采用的是springboot + springcloud，将每个模块做成微服务springboot，然后服务注册在注册中心eureka中，基于feignclient进行远程调用。
 
-![springboot](https://zhouyy.top/img/springboot/a.png){:height="250" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/a.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/a.png)
 
 ### 搭建springboot服务
 
@@ -26,13 +26,13 @@ header-img: "https://zhouyy.top/img/home-bg.jpg"
 
 1. 创建一个maven项目
 
-![springboot](https://zhouyy.top/img/springboot/创建maven项目.png){:height="250" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/创建maven项目.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/创建maven项目.png)
 
-![springboot](https://zhouyy.top/img/springboot/maven项目.png){:height="250" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/maven项目.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/maven项目.png)
 
 2. 添加pom坐标
 
-![springboot](https://zhouyy.top/img/springboot/添加pom坐标.png){:height="250" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/添加pom坐标.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/添加pom坐标.png)
 
 ##### Parent的作用
 
@@ -48,15 +48,15 @@ header-img: "https://zhouyy.top/img/home-bg.jpg"
 
 3. 添加配置文件
 
-![springboot](https://zhouyy.top/img/springboot/添加properties配置文件.png){:height="250" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/添加properties配置文件.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/添加properties配置文件.png)
 
 4. 添加启动类
 
-![图]()
+[![springboot](https://zhouyy.top/img/springboot/添加启动类.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/添加启动类.png)
 
 那么Springboot就已经搭建成功，如果验证他成功了呢？跑起来查看控制台，在控制台能看到项目启动端口和启动耗时。
 
-![图]()
+[![springboot](https://zhouyy.top/img/springboot/是否启动成功.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/是否启动成功.png)
 
 ### 搭建注册中心eureka
 
@@ -76,7 +76,7 @@ Springboot成功之后，这个架构已经完成了三分之一，还剩下两�
 
 3. 配置文件中添加配置
 
-![图]()
+![springboot](https://zhouyy.top/img/springboot/注册中心properties配置.png){:height="250" width="800"}
 
 ```properties
 spring.application.name=center
