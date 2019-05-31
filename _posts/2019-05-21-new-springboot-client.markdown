@@ -18,7 +18,7 @@ header-img: "https://zhouyy.top/img/home-bg.jpg"
 
 技术的话采用的是springboot + springcloud，将每个模块做成微服务springboot，然后服务注册在注册中心eureka中，基于feignclient进行远程调用。
 
-[![springboot](https://zhouyy.top/img/springboot/a.png){:height="250" width="800"}](https://zhouyy.top/img/springboot/a.png)
+[![springboot](https://zhouyy.top/img/springboot/a.png){:height="450" width="800"}](https://zhouyy.top/img/springboot/a.png)
 
 ### 搭建springboot服务
 
