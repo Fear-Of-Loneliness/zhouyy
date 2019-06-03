@@ -133,10 +133,18 @@ eureka.instance.lease-renewal-interval-in-seconds=10
 
 然后我们在demo2服务中写一个接口，让demo去调用
 
-[![springboot](https://zhouyy.top/img/springboot/接口.png){:height="500" width="800"}](https://zhouyy.top/img/springboot/接口.png)
+[![springboot](https://zhouyy.top/img/springboot/接口.png){:height="400" width="800"}](https://zhouyy.top/img/springboot/接口.png)
 
-当demo调用的demo2服务的findAll接口时，我们首先需要在demo服务中心新建一个文件夹加client，然后创建一个接口叫ProducerClient，在这个接口中我们需要做的是加上 @Service 注解注册在spring容器中，并加上 @FeignClient("demo2") 注解。
+当demo调用的demo2服务的findAll接口时，我们首先需要在demo服务中心新建一个client包，然后创建一个接口叫ProducerClient，在这个接口中我们需要做的是加上 @Service 注解注册在spring容器中，并加上 @FeignClient("demo2") 注解。
 
 @FeignClient("demo2")这个注解主要是干嘛的呢？我们可以看到注解中有一个demo2，这个demo2就是demo2服务在properties文件中配置的spring.application.name服务名称，当服务注册在注册中心的时候，他会将自己的服务名称告诉注册中心，注册中心会记录下服务名称，以便其他的服务通过名称去调用它
 
-我们需要调用哪个api，只需要将api复制在ProducerClient接口中
+我们需要调用哪个api，只需要将api复制在ProducerClient接口中即可，这样一个远程调用的接口就写好了。
+
+[![springboot](https://zhouyy.top/img/springboot/client接口.png){:height="400" width="800"}](https://zhouyy.top/img/springboot/接口.png)
+
+最后把项目跑起来测试一下，访问 http://localhost:8081/find
+
+[![springboot](https://zhouyy.top/img/springboot/result.png)](https://zhouyy.top/img/springboot/result.png)
+
+这样这个框架就已经完成了。
