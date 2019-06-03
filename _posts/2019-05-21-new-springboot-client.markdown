@@ -76,7 +76,7 @@ Springboot成功之后，这个架构已经完成了三分之一，还剩下两�
 
 3. 配置文件中添加配置
 
-![springboot](https://zhouyy.top/img/springboot/注册中心properties配置.png){:height="300" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/注册中心properties配置.png){:height="300" width="800"}](https://zhouyy.top/img/springboot/注册中心properties配置.png)
 
 ```properties
 spring.application.name=center
@@ -133,7 +133,7 @@ eureka.instance.lease-renewal-interval-in-seconds=10
 
 然后我们在demo2服务中写一个接口，让demo去调用
 
-![springboot](https://zhouyy.top/img/springboot/接口.png){:height="500" width="800"}
+[![springboot](https://zhouyy.top/img/springboot/接口.png){:height="500" width="800"}](https://zhouyy.top/img/springboot/接口.png)
 
 当demo调用的demo2服务的findAll接口时，我们首先需要在demo服务中心新建一个文件夹加client，然后创建一个接口叫ProducerClient，在这个接口中我们需要做的是加上 @Service 注解注册在spring容器中，并加上 @FeignClient("demo2") 注解。
 
